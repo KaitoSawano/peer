@@ -254,7 +254,7 @@ public:
 
         checkpointData = {
             {
-                {0, uint256S("0x00000e409c250e79e80ab4d548847c5b820c214e8c9955763f2254f685b8a817")},
+                {0, uint256S("00000e409c250e79e80ab4d548847c5b820c214e8c9955763f2254f685b8a817")},
             }
         };
 
@@ -286,7 +286,7 @@ public:
         consensus.SegwitHeight = 0; // SEGWIT is always activated on regtest unless overridden
         consensus.MinBIP9WarningHeight = 0;
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 3.5 * 24 * 60 * 60; // 3.5 days
+        consensus.nPowTargetTimespan = 3 * 24 * 60 * 60; // 3 days
         consensus.nPowTargetSpacing = 2.5 * 60;
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
@@ -311,10 +311,10 @@ public:
         consensus.mweb_pegout_feature_activation_height = 0;
         consensus.mweb_extradata_feature_activation_height = 0;
         consensus.frozen_mweb_output_ids = GetFrozenMWEBOutputIDs();
-        pchMessageStart[0] = 0xfa;
-        pchMessageStart[1] = 0xbf;
-        pchMessageStart[2] = 0xb5;
-        pchMessageStart[3] = 0xda;
+        pchMessageStart[0] = 0xfb;
+        pchMessageStart[1] = 0xfe;
+        pchMessageStart[2] = 0xde;
+        pchMessageStart[3] = 0xed;
         nDefaultPort = 19333;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 0;
@@ -322,10 +322,10 @@ public:
 
         UpdateActivationParametersFromArgs(args);
 
-        genesis = CreateGenesisBlock(1296688602, 0, 0x207fffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1789041260, 2, 0x207fffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9"));
-        assert(genesis.hashMerkleRoot == uint256S("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+        assert(consensus.hashGenesisBlock == uint256S("0x086de8a70d6c35f4f4756f393e77f36e911730d2bfd3c17ae113bc6bcf2d5ea3"));
+        assert(genesis.hashMerkleRoot == uint256S("0x0135365529fdb2bf3360318823e2c5eefaacff616b4c8be0f15e229a6d7d5bc2"));
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
@@ -337,7 +337,7 @@ public:
 
         checkpointData = {
             {
-                {0, uint256S("530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9")},
+                {0, uint256S("086de8a70d6c35f4f4756f393e77f36e911730d2bfd3c17ae113bc6bcf2d5ea3")},
             }
         };
 
