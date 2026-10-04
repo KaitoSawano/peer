@@ -1,6 +1,6 @@
-Litecoin Core version 0.21.5.8 is now available from:
+Fitecash Core version 0.21.5.8 is now available from:
 
- <https://download.litecoin.org/litecoin-0.21.5.8/>.
+ <https://download.fitecash.org/fitecash-0.21.5.8/>.
 
 This is a maintenance release that improves MWEB validation, transaction relay,
 mining, and resource management. Upgrading is strongly recommended for all
@@ -8,7 +8,7 @@ users, especially miners, pools, exchanges, and MWEB service operators.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/litecoin-project/litecoin/issues>
+  <https://github.com/fitecash-project/fitecash/issues>
 
 Notable changes
 ===============
@@ -41,7 +41,7 @@ Resource management and networking
   rejects invalid proofs (`d7ab03d`).
 - Fix file-descriptor cleanup during POSIX file copies used by MWEB leafset
   storage, including failed copies (`b8ccaf3`).
-- Update the LitecoinPool DNS seed to `dnsseed.ltcpool.org` (`63ba41f`).
+- Update the FitecashPool DNS seed to `dnsseed.ltcpool.org` (`63ba41f`).
 
 Tests
 -----

@@ -1,17 +1,17 @@
 [Desktop Entry]
 Version=1.0
-Name=Litecoin Core
-Comment=Connect to the Litecoin P2P Network
-Comment[de]=Verbindung mit dem Litecoin Peer-to-Peer-Netzwerk herstellen
-Comment[es]=Conectar a la red P2P de Litecoin
-Comment[fr]=Se connecter au réseau pair à pair Litecoin
+Name=Fitecash Core
+Comment=Connect to the Fitecash P2P Network
+Comment[de]=Verbindung mit dem Fitecash Peer-to-Peer-Netzwerk herstellen
+Comment[es]=Conectar a la red P2P de Fitecash
+Comment[fr]=Se connecter au réseau pair à pair Fitecash
 GenericName=Cryptocurrency Wallet
-Exec=litecoin-qt %u
+Exec=fitecash-qt %u
 Terminal=false
 Type=Application
-Icon=litecoin128
-MimeType=x-scheme-handler/litecoin;
+Icon=fitecash128
+MimeType=x-scheme-handler/fitecash;
 Categories=Office;Finance;Network;
-Keywords=litecoin;crypto;cryptocurrency;wallet;blockchain;
+Keywords=fitecash;crypto;cryptocurrency;wallet;blockchain;
 StartupNotify=true
-StartupWMClass=Litecoin-qt
+StartupWMClass=Fitecash-qt

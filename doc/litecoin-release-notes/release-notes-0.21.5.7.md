@@ -1,6 +1,6 @@
-Litecoin Core version 0.21.5.7 is now available from:
+Fitecash Core version 0.21.5.7 is now available from:
 
- <https://download.litecoin.org/litecoin-0.21.5.7/>.
+ <https://download.fitecash.org/fitecash-0.21.5.7/>.
 
 This is an urgent MWEB consensus-safety release. All miners, pools, exchanges,
 MWEB service operators, and full-node users should upgrade immediately and
@@ -8,7 +8,7 @@ before the activation height described below.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/litecoin-project/litecoin/issues>
+  <https://github.com/fitecash-project/fitecash/issues>
 
 Notable changes
 ===============

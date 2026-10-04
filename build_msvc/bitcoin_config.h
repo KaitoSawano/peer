@@ -27,10 +27,10 @@
 #define COPYRIGHT_HOLDERS "The %s developers"
 
 /* Copyright holder(s) */
-#define COPYRIGHT_HOLDERS_FINAL "The Litecoin Core developers"
+#define COPYRIGHT_HOLDERS_FINAL "The Fitecash Core developers"
 
 /* Replacement for %s in copyright holders string */
-#define COPYRIGHT_HOLDERS_SUBSTITUTION "Litecoin Core"
+#define COPYRIGHT_HOLDERS_SUBSTITUTION "Fitecash Core"
 
 /* Copyright year */
 #define COPYRIGHT_YEAR 2026
@@ -247,19 +247,19 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "https://github.com/litecoin-project/litecoin/issues"
+#define PACKAGE_BUGREPORT "https://github.com/fitecash-project/fitecash/issues"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "Litecoin Core"
+#define PACKAGE_NAME "Fitecash Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "Litecoin Core 0.21.5.8"
+#define PACKAGE_STRING "Fitecash Core 0.21.5.8"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "litecoin"
+#define PACKAGE_TARNAME "fitecash"
 
 /* Define to the home page for this package. */
-#define PACKAGE_URL "https://litecoin.org/"
+#define PACKAGE_URL "https://fitecash.org/"
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION "0.21.5.8"

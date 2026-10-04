@@ -1,6 +1,6 @@
-Litecoin Core version 0.21.5.5 is now available from:
+Fitecash Core version 0.21.5.5 is now available from:
 
- <https://download.litecoin.org/litecoin-0.21.5.5/>.
+ <https://download.fitecash.org/fitecash-0.21.5.5/>.
 
 This is a patch version release that includes important MWEB consensus
 hardening, node reliability improvements, wallet and mining fixes, and
@@ -8,7 +8,7 @@ build/test updates.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/litecoin-project/litecoin/issues>
+  <https://github.com/fitecash-project/fitecash/issues>
 
 Notable changes
 ===============
@@ -77,7 +77,7 @@ Build and test changes
 ----------------------
 
 - Added missing `<cstdint>` includes needed by some compilers (`58f89ba`).
-- Replaced the functional test dependency on the external `litecoin_scrypt`
+- Replaced the functional test dependency on the external `fitecash_scrypt`
   Python package (`d139222`).
 - Added and expanded tests for MWEB P2P messages, duplicate pegins, crash
   recovery, mutated blocks, mining, and wallet/RPC behavior.

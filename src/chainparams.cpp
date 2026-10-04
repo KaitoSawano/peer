@@ -136,9 +136,9 @@ public:
         // This is fine at runtime as we'll fall back to using them as an addrfetch if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        vSeeds.emplace_back("seed-a.litecoin.loshan.co.uk");
+        vSeeds.emplace_back("seed-a.fitecash.loshan.co.uk");
         vSeeds.emplace_back("dnsseed.thrasher.io");
-        vSeeds.emplace_back("dnsseed.litecointools.com");
+        vSeeds.emplace_back("dnsseed.fitecashtools.com");
         vSeeds.emplace_back("dnsseed.ltcpool.org");
         vSeeds.emplace_back("dnsseed.koin-project.com");
 
@@ -250,8 +250,8 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("testnet-seed.litecointools.com");
-        vSeeds.emplace_back("seed-b.litecoin.loshan.co.uk");
+        vSeeds.emplace_back("testnet-seed.fitecashtools.com");
+        vSeeds.emplace_back("seed-b.fitecash.loshan.co.uk");
         vSeeds.emplace_back("dnsseed-testnet.thrasher.io");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
