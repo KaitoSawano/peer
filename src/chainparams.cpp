@@ -119,8 +119,8 @@ public:
          */
         pchMessageStart[0] = 0xbd;
         pchMessageStart[1] = 0xdb;
-        pchMessageStart[2] = 0xb6;
-        pchMessageStart[3] = 0xdb;
+        pchMessageStart[2] = 0xbc;
+        pchMessageStart[3] = 0xcb;
         nDefaultPort = 8599;
         nPruneAfterHeight = 100000;
         m_assumed_blockchain_size = 40;
