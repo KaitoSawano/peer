@@ -214,11 +214,11 @@ public:
 
         consensus.mweb_pegout_feature_activation_height = 0;
         consensus.mweb_extradata_feature_activation_height = 0;
-        pchMessageStart[0] = 0xfd;
-        pchMessageStart[1] = 0xd2;
-        pchMessageStart[2] = 0xc8;
-        pchMessageStart[3] = 0xf1;
-        nDefaultPort = 19335;
+        pchMessageStart[0] = 0xcf;
+        pchMessageStart[1] = 0xc2;
+        pchMessageStart[2] = 0x2d;
+        pchMessageStart[3] = 0xfd;
+        nDefaultPort = 8555;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 4;
         m_assumed_chain_state_size = 1;
