@@ -55,11 +55,11 @@ config file): *Needed for Tor version 0.2.7.0 and older versions of Tor only. Fo
 versions of Tor see [Section 3](#3-automatically-listen-on-tor).*
 
 	HiddenServiceDir /var/lib/tor/fitecash-service/
-	HiddenServicePort 9333 127.0.0.1:9333
-	HiddenServicePort 19335 127.0.0.1:19335
+	HiddenServicePort 7555 127.0.0.1:7555
+	HiddenServicePort 9422 127.0.0.1:9422
 
 The directory can be different of course, but virtual port numbers should be equal to
-your fitecashd's P2P listen port (9333 by default), and target addresses and ports
+your fitecashd's P2P listen port (7555 by default), and target addresses and ports
 should be equal to binding address and port for inbound Tor connections (127.0.0.1:9334 by default).
 
 	-externalip=X   You can tell fitecash about its publicly reachable addresses using
@@ -100,7 +100,7 @@ as well, use `discover` instead:
 
 	./fitecashd ... -discover
 
-and open port 9333 on your firewall (or use -upnp).
+and open port 7555 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach .onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:

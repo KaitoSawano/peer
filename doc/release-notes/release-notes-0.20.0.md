@@ -433,7 +433,7 @@ Build system
 - #18346 Document an RPCResult for all calls; Enforce at compile time (MarcoFalke)
 - #18396 Add missing HelpExampleRpc for getblockfilter (theStack)
 - #18398 Fix broken RPCExamples for waitforblock(height) (theStack)
-- #18444 Remove final comma for last entry of fixed-size arrays/objects in RPCResult (luke-jr)
+- #19333 Remove final comma for last entry of fixed-size arrays/objects in RPCResult (luke-jr)
 - #18459 Remove unused getbalances() code (jonatack)
 - #18484 Correctly compute redeemScript from witnessScript for signrawtransaction (achow101)
 - #18487 Fix rpcRunLater race in walletpassphrase (promag)
